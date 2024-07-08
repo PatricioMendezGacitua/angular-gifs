@@ -21,7 +21,7 @@ export class LazyImageComponent implements OnInit {
   onLoad(){
     setTimeout(() => {
     this.hasLoaded = true;
-    }, 3000);
+    }, 1500);
   }
 
 }
